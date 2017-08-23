@@ -2,6 +2,6 @@
 <resources>
     <dimen name="h1">22sp</dimen>
     <dimen name="h2">18sp</dimen>
-    <dimen name="icon">150dp</dimen>
+    <dimen name="icon">180dp</dimen>
     <dimen name="content">300dp</dimen>
 </resources>
