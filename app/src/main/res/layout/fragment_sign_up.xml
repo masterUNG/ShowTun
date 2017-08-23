@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--ToolBar-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBarSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary" />
+
+    <!--Content-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <!--Name-->
+        <EditText
+            android:layout_width="@dimen/content"
+            android:layout_height="wrap_content"
+            android:hint="Name :"
+            android:inputType="text"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryLight" />
+
+        <!--Gender-->
+        <RadioGroup
+            android:layout_width="@dimen/content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male" />
+
+            <RadioButton
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+
+
+        </RadioGroup>
+
+        <!--User-->
+        <EditText
+            android:layout_width="@dimen/content"
+            android:layout_height="wrap_content"
+            android:hint="User :"
+            android:inputType="text"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryLight" />
+
+        <!--Password-->
+        <EditText
+            android:layout_width="@dimen/content"
+            android:layout_height="wrap_content"
+            android:hint="Password :"
+            android:inputType="text"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryLight" />
+
+        <!--Re Password-->
+        <EditText
+            android:layout_width="@dimen/content"
+            android:layout_height="wrap_content"
+            android:hint="Re Password :"
+            android:inputType="text"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryLight" />
+
+
+    </LinearLayout>
+
+    <!--Button-->
+    <Button
+        android:textColor="#ffffff"
+        android:text="Sign Up"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
