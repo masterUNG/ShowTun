@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <!--ToolBar-->
     <android.support.v7.widget.Toolbar
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         android:id="@+id/toolBarSignUp"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
@@ -23,9 +25,9 @@
         <EditText
             android:layout_width="@dimen/content"
             android:layout_height="wrap_content"
-            android:hint="Name :"
+            android:hint="@string/name"
             android:inputType="text"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/white"
             android:textColorHint="@color/colorPrimaryLight" />
 
         <!--Gender-->
@@ -35,13 +37,13 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Male" />
 
             <RadioButton
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/white"
                 android:layout_marginLeft="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -56,8 +58,8 @@
             android:layout_height="wrap_content"
             android:hint="User :"
             android:inputType="text"
-            android:textColor="@color/colorPrimaryDark"
-            android:textColorHint="@color/colorPrimaryLight" />
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
 
         <!--Password-->
         <EditText
@@ -65,7 +67,7 @@
             android:layout_height="wrap_content"
             android:hint="Password :"
             android:inputType="text"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/white"
             android:textColorHint="@color/colorPrimaryLight" />
 
         <!--Re Password-->
@@ -74,7 +76,7 @@
             android:layout_height="wrap_content"
             android:hint="Re Password :"
             android:inputType="text"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/white"
             android:textColorHint="@color/colorPrimaryLight" />
 
 
