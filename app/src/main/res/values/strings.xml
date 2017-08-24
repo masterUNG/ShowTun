@@ -3,4 +3,6 @@
     <string name="register">สมัครสมาชิก</string>
     <string name="sub_register">กรุณากรอก ทุกช่องคะ</string>
     <string name="name">ชื่อ :</string>
+    <string name="title_have_space">Have Space</string>
+    <string name="message_have_space">Please Fill All Blank</string>
 </resources>
