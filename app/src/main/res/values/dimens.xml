@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="h1">22sp</dimen>
+    <dimen name="h1">24sp</dimen>
     <dimen name="h2">18sp</dimen>
     <dimen name="icon">180dp</dimen>
     <dimen name="content">300dp</dimen>
